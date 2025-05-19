@@ -21,7 +21,7 @@ nav{
 .botaonav{
     border-radius: 15px;
     width: 90px;
-    height: 100px;
+    height: 00px;
     margin: 0 15px 0 15px;
     background-color: white;
     color: black;
@@ -38,6 +38,7 @@ nav{
     text-align: center;
     justify-content: center;
     display: flex;
+    margin-top: 45px;
 }
 
 #doubleNotic{
@@ -49,10 +50,6 @@ div{
     border: solid black 2px;
     border-radius: 10px;
     padding: 2px;
-}
-
-#noticias{
-    margin-top: 45px;
 }
 
 #notic1{
