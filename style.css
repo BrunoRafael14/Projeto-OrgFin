@@ -1,0 +1,29 @@
+body{
+    background-color: #efd9db;
+}
+
+header{
+    text-align: center;
+    /*border: solid 2px black;*/
+    border-radius: 20px;
+    color: black;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /*border: solid 2px black;*/
+    padding: 4px;
+
+}
+
+.botaonav{
+    border-radius: 15px;
+    width: 90px;
+    height: 100px;
+    margin: 0 15px 0 15px;
+    background-color: white;
+    color: black;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}

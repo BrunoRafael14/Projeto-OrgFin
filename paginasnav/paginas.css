@@ -1,0 +1,20 @@
+body{
+    background-color: #948979;
+}
+
+header{
+    border: solid 3px black;
+    background-color: #DFD0B8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boasvindas{
+    text-align: center;
+    flex-grow: 1;
+}
+
+.voltar{
+    height: 40px;
+}
