@@ -1,0 +1,20 @@
+form{
+    border: solid black 2px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#inputs{
+    text-align: center;
+    display: block;
+    margin-left: 5px; 
+}
+
+label{
+    display: block;
+}
+
+#botaoEnviar{
+    margin: 5px 0 5px 0;
+    border-radius: 7px;
+}

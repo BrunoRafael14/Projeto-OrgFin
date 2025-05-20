@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dívidas</title>
     <link rel="stylesheet" href="/paginasnav/paginas.css">
+    <link rel="stylesheet" href="dividas.css">
 </head>
 <body>
     <a href="/index.html"><img src="https://images.vexels.com/media/users/3/128922/isolated/preview/1cec3d0747fc796080b17ca07e14d187-icone-de-seta-redonda-do-aeroporto-de-viagem.png" class="voltar"></a>
@@ -12,5 +13,20 @@
 
         <h1 class="boasvindas">Olá</h1>
     </header>
+    <form>
+        <h3>Cadastre Aqui a Sua Dívida</h3>
+        <div id="inputs">
+            <label for="nomeDivida">Nome da Dívida:</label>
+            <input id="nomeDivida" type="text">
+            <br>
+            <label for="tipoDivida">Tipo da Dívida:</label>
+            <input id="tipoDivida" type="text">
+            <br>
+            <label for="valorDivida">Valor da Dívida:</label>
+            <input id="valorDivida" type="number" step="0.01" min="0" placeholder="0,00">
+            <br>
+            <button id="botaoEnviar">Enviar</button>
+        </div>
+    </form>
 </body>
 </html>
